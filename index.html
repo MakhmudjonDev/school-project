@@ -19,22 +19,48 @@
                     <li> <a href="#">Courses</a> </li>
                     <li> <a href="#">Team</a> </li>
                     <li> <a href="#">Certificates</a> </li>
-                    <li> <a href="#">Register</a> </li>
+                    <li> <a href="#">Contact</a> </li>
+                    <li> <a href="#">About</a> </li>
                 </ul>
-                <div class="phone">
+                <div class="contact">
                     <div class="phone">
                         <img src="assets/images/Vectorphone icon .png" alt="phone">
                     </div>
                     <p>+998 (94) 777 77 77</p>
                 </div>
             </nav>
+            <main>
+                <div class="desc">
+                    <p>Добро пожаловать в онлайн школу </p>
+                    <h1>VeraVla edu!</h1>
+                    <p>Переквалифицируйся в разработчика искусственного интеллекта и получи высокооплачиваемую работу    </p>
+                    <div class="desc-guarantee">
+                        <div class="desc-guarantee-pic">
+                            <img src="assets/images/Vectorguarantee .png" alt="">
+                        </div>
+                        <div class="desc-guarantee-text">
+                            <h3>Мы обучаем с гарантией!</h3>
+                            <p>Первый месяц действует гарантия 100% возврата 
+                                денег, если тебя не устроят наши курсы</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="start-btn">
+                    Записаться на ознакомительный вебинар
+                </button>
+                <div class="neuron neuron-main">
+                    <img src="assets/images/Neuron_4-1024x614 1.png" alt="neuron-1">
+                </div>
+            </main>
+        </div>
+        
+        <div class="neuron neuron-left-bottom">
+            <img src="assets/images/Neuron_4-1024x614 2.png" alt="neuron-2">
+        </div>
+        <div class="neuron neuron-top">
+            <img src="assets/images/Neuron_4-1024x614 3.png" alt="neuron-3">
         </div>
     </header>
-    <main>
-        <div class="container">
-
-        </div>
-    </main>
     <section class="media">
         <div class="container">
             <table class="pictures">
@@ -72,7 +98,7 @@
     </section>
     <section class="register">
         <div class="container">
-            <form action="get" method="get" class="sign up">
+            <form action="get" method="get" class="register-sign_up">
                 <input type="text" placeholder="name" required />
                 <input type="text" placeholder="second name" required />
                 <label for="date">Input birth date</label><br>
@@ -84,12 +110,12 @@
                 <label for="file">Please upload file of birth document of your child</label>
                 <input type="file" name="file" id="file" value="Choose" required />
                 <p>Choose in which parts of the day do you want your child to have meal</p> <br>
-                <label for="Breakfast">Breakfast</label>
-                <input type="checkbox" name="Breakfast" id="checkbox" required />
-                <label for="Lunch">Lunch</label>
-                <input type="checkbox" name="Lunch" id="checkbox" required />
-                <label for="Dinner">Dinner</label> 
-                <input type="checkbox" name="Dinner" id="checkbox" required /> <br>
+                <label for="food">Breakfast</label>
+                <input type="checkbox" name="food" id="checkbox" required />
+                <label for="food">Lunch</label>
+                <input type="checkbox" name="food" id="checkbox" required />
+                <label for="food">Dinner</label> 
+                <input type="checkbox" name="food" id="checkbox" required /> <br>
                 <label for="time">When can you pick up your child from school</label> <br>
                 <!-- <input type="datetime" name="datetime" id="datetime" required /> -->
                 <input type="time" name="time" id=""> <br>
@@ -98,13 +124,19 @@
                 <label for="oferta">Do you agree with these requirements?</label> <br>
                 <input type="checkbox" name="oferta" id="oferta"> <label for="oferta">Roziman</label><br>
                 <input type="submit" value="submit">
+                <select name="place" id="place">
+                    <option value="Tashkent">Tashkent</option>
+                    <option value="Bukhara">Bukhara</option>
+                    <option value="Samarkand">Samarkand</option>
+                    <option value="Andijan">Andijan</option>
+                    <option value="Sirdarya">Sirdarya</option>
+                </select>
             </form>
-            <div class="pict">
+            <div class="register-pict">
                 <img src="assets/images/Rectangle 4boy programming .png" alt="programming">
             </div>
         </div>
     </section>
-
     <script src="script/script.js"></script>
 </body>
 </html>
